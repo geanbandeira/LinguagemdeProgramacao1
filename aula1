@@ -1,1 +1,29 @@
+jdk para desenvolver
+jre para rodar java
+pacores junções de classes
+java.lang.Object pai de todas
+https://docs.oracle.com/javase/8/docs/api/ pacotes e objetos
+a partir de uma classe posso criar classes 
+para criar obj criar com construtor
+
+abstrair
+criar modelos
+representação conveniente para voce, foca,pega realidade e cria modelo
+
+encapsulamento
+delimitar o que é acessivel e o que não é
+
+herança
+recebe caracteristicas das classes anteriores
+
+objetos = instancias
+
+classe conjunto de atributos e metodos
+
+piliformismo
+varias formas
+metodo comunicar para pessoas e animais.
+funcionalidades analogas.
+
+java é quase 100% orientado a objetos mas possui tipos primitivos tambem
 
