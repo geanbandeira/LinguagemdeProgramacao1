@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Par {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Entre com o primeiro numero\n");
+		int num1 = scanner.nextInt();
+		
+		System.out.println("Entre com o segundo numero");
+		int num2 = scanner.nextInt();
+		
+		System.out.println("Entre com o terceiro numero");
+		int num3 = scanner.nextInt();
+		
+		if(num1 > num2 && num2 > num3) {
+			System.out.println("Numeros\n" + num3 + "\n" + num2 + "\n" + num1);
+			
+		} else if(num1 > num2 && num3 > num2){
+			System.out.println("Numeros\n" + num2 + "\n" + num3 + "\n" + num1);	
+			
+		} else if(num2 > num1 && num1 > num3){
+			System.out.println("Numeros\n" + num3 + "\n" + num1 + "\n" + num2);
+			
+		}else if(num2 > num1 && num3 > num1) {
+			System.out.println("Numeros\n" + num1 + "\n" + num3 + "\n" + num2);
+			
+		}else if(num3 > num1 && num1 > num2){
+			System.out.println("Numeros\n" + num2 + "\n" + num1 + "\n" + num3);
+			
+		}else {
+			System.out.println("Numeros\n" + num1 + "\n" + num2 + "\n" + num3);
+		}
+	}
+}
