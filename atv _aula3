@@ -1,0 +1,2 @@
+3. O problema anterior poderia utilizar tanto a estrutura de decisão "if" e "switch"? Justifique sua resposta.
+Nesse contexto o ideal seria o if, mas se implementar mais, o switch se tornaria melhor, por exemplo, ver contas passadas, editar usuario, etc 
