@@ -4,14 +4,14 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Atv2 {
+public class Atv2{
     public static void main(String[] args) {
         JFrame frame = new JFrame("Cálculo de Consumo de Água");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 300);
         frame.setLayout(null);
 
-        JLabel mesLabel = new JLabel("Mês: (Jan/.../Dez)");
+        JLabel mesLabel = new JLabel("Mês: ");
         JTextField mesField = new JTextField();
         
         JLabel consumoLabel = new JLabel("Consumo (m³):");
@@ -57,7 +57,7 @@ public class Atv2 {
 
                     resultadoArea.setText(resultado);
                 } catch (NumberFormatException ex) {
-                    resultadoArea.setText("Por favor insira um número válido para o consumo.");
+                    resultadoArea.setText("Por favor, insira um número válido de consumo.");
                 }
             }
         });
