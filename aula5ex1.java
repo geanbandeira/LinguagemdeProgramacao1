@@ -7,7 +7,7 @@ public class ParesImpares {
 
         System.out.println("Números gerados:");
         for (int i = 0; i < numeros.length; i++) {
-            numeros[i] = random.nextInt(100) + 1; // Gera números entre 1 e 100
+            numeros[i] = random.nextInt(100) + 1;
             System.out.print(numeros[i] + " ");
         }
 
