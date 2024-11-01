@@ -8,7 +8,7 @@ public class AulaEx1 {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Números Ímpares de 1 a 100");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300, 300);
+        frame.setSize(900, 300);
         frame.setLayout(null);
 
         JButton gerarButton = new JButton("Mostrar Números Ímpares");
@@ -17,7 +17,7 @@ public class AulaEx1 {
         resultadoArea.setEditable(false);
         
         gerarButton.setBounds(20, 20, 250, 30);
-        resultadoArea.setBounds(20, 60, 250, 180);
+        resultadoArea.setBounds(20, 60, 850, 60);
         
         frame.add(gerarButton);
         frame.add(resultadoArea);
@@ -28,7 +28,7 @@ public class AulaEx1 {
                 StringBuilder numerosImpares = new StringBuilder("Números Ímpares de 1 a 100:\n");
                 for (int i = 1; i <= 100; i++) {
                     if (i % 2 != 0) {
-                        numerosImpares.append(i).append("\n");
+                        numerosImpares.append(i).append(" ");
                     }
                 }
                 resultadoArea.setText(numerosImpares.toString());
