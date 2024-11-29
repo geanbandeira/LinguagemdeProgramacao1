@@ -9,7 +9,7 @@ public class VintenumerosImparePares {
 	 ArrayList<Integer> pares = new ArrayList<>();
 	 System.out.println("Digite 20 números inteiros:\n");
 	 for (int i = 0; i < 20; i++) {
-	 System.out.print("Número " + (i + 1) + ": ");
+	 System.out.print("Número: ");
 	 int numero = scanner.nextInt();
 	 if (numero % 2 == 0) {
 	 pares.add(numero);
