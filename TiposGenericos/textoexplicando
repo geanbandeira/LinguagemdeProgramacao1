@@ -1,0 +1,7 @@
+A LinkedList é ideal para essa aplicação, pois permite inserções e remoções rápidas, especialmente quando as tarefas precisam ser frequentemente adicionadas
+ou removidas em qualquer posição da lista. Por exemplo, ao adicionar uma nova tarefa no início ou remover uma tarefa concluída
+
+O TreeSet é apropriado quando é necessário manter os usuários em uma ordem específica, como por nome ou ID. Ele garante que os elementos sejam 
+armazenados em ordem crescente, utilizando um comparador ou a ordem natural dos elementos.
+
+O HashMap é ideal para armazenar pares de chave-valor, como itens e suas quantidades em um inventário.
